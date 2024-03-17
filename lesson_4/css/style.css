@@ -1,0 +1,16 @@
+
+
+
+@import url("fonts.css"); 
+
+@import url("reset.css"); 
+
+.header {
+	text-align: center;
+}
+.title {
+	text-align: center;
+}
+.img {
+	text-align: center;
+}
