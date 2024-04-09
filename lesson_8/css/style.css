@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+
+@import url("reset.css"); 
+
+.page {
+	font-family: "Exo", sans-serif;
+	background-color: beige;
+	max-width: 90%;
+	border: 3px dotted greenyellow;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+.item {
+	margin-bottom: 20px;
+	padding-left: 25px;
+}
+.item:last-child {
+	margin-bottom: 0px;
+}
+.img {
+	margin-left: -580px;
+	display: inline-block;
+}
+.item img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+	}
+
+.text {
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+}
+.icon {
+	display: inline-block;
+}
+.icon::before {
+	content: "";
+	vertical-align: middle;
+	background: url("../img/Vector-1.svg") 0 12px / 100% no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+.icon:hover::before {
+	transform: rotate(-180deg);
+	transition: all 0.3s;
+}
+.icon-2 {
+	display: inline-block;
+}
+.icon-2::before {
+	content: "";
+	vertical-align: middle;
+	background: url("../img/Vector-2.svg") 0 0 / 100% no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
